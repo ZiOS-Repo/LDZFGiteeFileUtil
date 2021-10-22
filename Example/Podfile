@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LDZFGiteeFileUtil_Example' do
+  pod 'LDZFGiteeFileUtil', :path => '../'
+
+  target 'LDZFGiteeFileUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - LDZFGiteeFileUtil (0.1.0)
+
+DEPENDENCIES:
+  - LDZFGiteeFileUtil (from `../`)
+
+EXTERNAL SOURCES:
+  LDZFGiteeFileUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDZFGiteeFileUtil: cfe195da048b948c445ce8c5dec3409566fe6108
+
+PODFILE CHECKSUM: 8cff853692e1285ba9b72b96a8cd77b579db6c5d
+
+COCOAPODS: 1.10.1

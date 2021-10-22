@@ -1,0 +1,6 @@
+framework module LDZFGiteeFileUtil {
+  umbrella header "LDZFGiteeFileUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

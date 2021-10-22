@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058BEC09E196F2901F364F5DDD73BEFE /* Pods-LDZFGiteeFileUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC0F06789B523DEBFA5B09802C03716 /* Pods-LDZFGiteeFileUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08475988DE8A6BDE58639B90D0D9FC8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2BAB4F17C129BECE9D2E53C5A95D107E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2D60A975F5BB5B17DC06C467156F46C7 /* Pods-LDZFGiteeFileUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF178ACDC08AB19CD1D483EFB9DEC1 /* Pods-LDZFGiteeFileUtil_Tests-dummy.m */; };
+		3F976BD6E3B2E153D3EA9B2A00B3AC75 /* LDZFGiteeFileUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5982654DF5F45D97D9DD001668C00C8A /* LDZFGiteeFileUtil-dummy.m */; };
+		5412A6B607A63A6EC2C0B354BEE4DC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E02004317FEB2CB86C51DDA56A2153C /* LDZFGiteeFileUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A1ACF01BDC2359924835A29B393994 /* LDZFGiteeFileUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B7CB19576661F4E7A200AF29837DACC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01738448D68E5EFB38BD0D38AFF9F460 /* ReplaceMe.m */; };
+		A0061694BFAAA05E3D46C2E9536D663D /* Pods-LDZFGiteeFileUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2BDE039EC0DB1A822243A98B71589 /* Pods-LDZFGiteeFileUtil_Example-dummy.m */; };
+		E5A9F87C7492177934D4D2248CD71E44 /* Pods-LDZFGiteeFileUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821728F5EA2556C32B9302F5FCCA75E8 /* Pods-LDZFGiteeFileUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A2BB3E1F9A4A9CABC02BD6C88C59BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121D549FC9E60E840D54B99FCF32A30C;
+			remoteInfo = LDZFGiteeFileUtil;
+		};
+		F59502FFA6107469E79D19F48917D88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A57AD1FB1D42E488B1C366FE3248570;
+			remoteInfo = "Pods-LDZFGiteeFileUtil_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01738448D68E5EFB38BD0D38AFF9F460 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LDZFGiteeFileUtil/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0F16B8BFFAF4794CD1477AB2EF6AD785 /* Pods-LDZFGiteeFileUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFGiteeFileUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1270D093DC55AC92DF20AA59DB554D8A /* Pods-LDZFGiteeFileUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFGiteeFileUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		18CC344BAAB5712AACF260122C828196 /* Pods-LDZFGiteeFileUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFGiteeFileUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B3BA1DDF78870773DE018AAD4636058 /* Pods-LDZFGiteeFileUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFGiteeFileUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22C48C8782392BF80FF82EFEA620A642 /* LDZFGiteeFileUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFGiteeFileUtil-Info.plist"; sourceTree = "<group>"; };
+		30FE6BD953B2C4033ADF1DE26F808F65 /* Pods-LDZFGiteeFileUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFGiteeFileUtil_Example.modulemap"; sourceTree = "<group>"; };
+		3CE2BDE039EC0DB1A822243A98B71589 /* Pods-LDZFGiteeFileUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFGiteeFileUtil_Example-dummy.m"; sourceTree = "<group>"; };
+		4EFA162D3271A7C54ED69ED1E0902D03 /* LDZFGiteeFileUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDZFGiteeFileUtil.framework; path = LDZFGiteeFileUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3D174969CE74A8662F7250E33D6F48 /* LDZFGiteeFileUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFGiteeFileUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4FC0F06789B523DEBFA5B09802C03716 /* Pods-LDZFGiteeFileUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFGiteeFileUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		5884727D9BAD060B5CA70DB516E23C27 /* Pods-LDZFGiteeFileUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFGiteeFileUtil_Tests-Info.plist"; sourceTree = "<group>"; };
+		59203D2828F1A4EFBC60C2A2834D432B /* LDZFGiteeFileUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFGiteeFileUtil.release.xcconfig; sourceTree = "<group>"; };
+		5982654DF5F45D97D9DD001668C00C8A /* LDZFGiteeFileUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFGiteeFileUtil-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DBD2A41317A0EAF9650F6AD33C510E2 /* Pods_LDZFGiteeFileUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDZFGiteeFileUtil_Tests.framework; path = "Pods-LDZFGiteeFileUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		821728F5EA2556C32B9302F5FCCA75E8 /* Pods-LDZFGiteeFileUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFGiteeFileUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8770B9953FB2C22BA899D04917D0BDC7 /* LDZFGiteeFileUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFGiteeFileUtil-prefix.pch"; sourceTree = "<group>"; };
+		8B34115AEECE97463729E13A3833E99D /* Pods-LDZFGiteeFileUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDZFGiteeFileUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D0C3AED1B1E2C00003A20AD5266765 /* Pods-LDZFGiteeFileUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFGiteeFileUtil_Example-Info.plist"; sourceTree = "<group>"; };
+		AFB28A9DCBEB075C6302E31577D8F59B /* Pods_LDZFGiteeFileUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDZFGiteeFileUtil_Example.framework; path = "Pods-LDZFGiteeFileUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B894F4333A373DAD7E9E22208CC04CF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C1786E32ACEBE17DE2A0C259F8DEAA70 /* LDZFGiteeFileUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFGiteeFileUtil.modulemap; sourceTree = "<group>"; };
+		C216C27C9252FBF279F462A6257A24F3 /* LDZFGiteeFileUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFGiteeFileUtil.debug.xcconfig; sourceTree = "<group>"; };
+		C2EA11ADEA778E2AAFE6E38984CAC17C /* Pods-LDZFGiteeFileUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFGiteeFileUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CAFF178ACDC08AB19CD1D483EFB9DEC1 /* Pods-LDZFGiteeFileUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFGiteeFileUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		D46EDFB6753695D74AE39157B0076D7E /* Pods-LDZFGiteeFileUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFGiteeFileUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD026ADB018D629DBC3D3599F42D2B75 /* Pods-LDZFGiteeFileUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFGiteeFileUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1A1ACF01BDC2359924835A29B393994 /* LDZFGiteeFileUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFGiteeFileUtil-umbrella.h"; sourceTree = "<group>"; };
+		E82BACAD9027FC33B5AF949AFF7CD84C /* Pods-LDZFGiteeFileUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFGiteeFileUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		EBF9862E63F33D858BF6611A18A03474 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB35F7C6FA3C87E082161718502FCD0A /* Pods-LDZFGiteeFileUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFGiteeFileUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2446BA2913FC33EA7151B20AAD972560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAB4F17C129BECE9D2E53C5A95D107E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3610242E8A1DC58A30E28DCDC90532E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5412A6B607A63A6EC2C0B354BEE4DC7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BDC403A75546C81ACEB9FA6F7BA1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08475988DE8A6BDE58639B90D0D9FC8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216AAB6C642D75043A53A064B277E46D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8215BB0EA9419253A1E4103EC9C5C2D0 /* LDZFGiteeFileUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3D6A7A44D1FA5D8B6BC5C1D944ADCEB4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA43E3B4ECBB2372C8A69D6CAD072D /* Pods-LDZFGiteeFileUtil_Example */,
+				D6EB1F859FD10F35DD79A70361BDF013 /* Pods-LDZFGiteeFileUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4EBA43E3B4ECBB2372C8A69D6CAD072D /* Pods-LDZFGiteeFileUtil_Example */ = {
+			isa = PBXGroup;
+			children = (
+				30FE6BD953B2C4033ADF1DE26F808F65 /* Pods-LDZFGiteeFileUtil_Example.modulemap */,
+				0F16B8BFFAF4794CD1477AB2EF6AD785 /* Pods-LDZFGiteeFileUtil_Example-acknowledgements.markdown */,
+				18CC344BAAB5712AACF260122C828196 /* Pods-LDZFGiteeFileUtil_Example-acknowledgements.plist */,
+				3CE2BDE039EC0DB1A822243A98B71589 /* Pods-LDZFGiteeFileUtil_Example-dummy.m */,
+				8B34115AEECE97463729E13A3833E99D /* Pods-LDZFGiteeFileUtil_Example-frameworks.sh */,
+				A0D0C3AED1B1E2C00003A20AD5266765 /* Pods-LDZFGiteeFileUtil_Example-Info.plist */,
+				4FC0F06789B523DEBFA5B09802C03716 /* Pods-LDZFGiteeFileUtil_Example-umbrella.h */,
+				DD026ADB018D629DBC3D3599F42D2B75 /* Pods-LDZFGiteeFileUtil_Example.debug.xcconfig */,
+				C2EA11ADEA778E2AAFE6E38984CAC17C /* Pods-LDZFGiteeFileUtil_Example.release.xcconfig */,
+			);
+			name = "Pods-LDZFGiteeFileUtil_Example";
+			path = "Target Support Files/Pods-LDZFGiteeFileUtil_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8215BB0EA9419253A1E4103EC9C5C2D0 /* LDZFGiteeFileUtil */ = {
+			isa = PBXGroup;
+			children = (
+				01738448D68E5EFB38BD0D38AFF9F460 /* ReplaceMe.m */,
+				FDA731B8A30D0E8E1D3E676CE537D881 /* Pod */,
+				AA2605A81C97F611DCF7704A71FBCDB5 /* Support Files */,
+			);
+			name = LDZFGiteeFileUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9AD9149A82BE34BA2DBEE8D8FECCEF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA162D3271A7C54ED69ED1E0902D03 /* LDZFGiteeFileUtil.framework */,
+				AFB28A9DCBEB075C6302E31577D8F59B /* Pods_LDZFGiteeFileUtil_Example.framework */,
+				7DBD2A41317A0EAF9650F6AD33C510E2 /* Pods_LDZFGiteeFileUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2605A81C97F611DCF7704A71FBCDB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1786E32ACEBE17DE2A0C259F8DEAA70 /* LDZFGiteeFileUtil.modulemap */,
+				5982654DF5F45D97D9DD001668C00C8A /* LDZFGiteeFileUtil-dummy.m */,
+				22C48C8782392BF80FF82EFEA620A642 /* LDZFGiteeFileUtil-Info.plist */,
+				8770B9953FB2C22BA899D04917D0BDC7 /* LDZFGiteeFileUtil-prefix.pch */,
+				E1A1ACF01BDC2359924835A29B393994 /* LDZFGiteeFileUtil-umbrella.h */,
+				C216C27C9252FBF279F462A6257A24F3 /* LDZFGiteeFileUtil.debug.xcconfig */,
+				59203D2828F1A4EFBC60C2A2834D432B /* LDZFGiteeFileUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDZFGiteeFileUtil";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				216AAB6C642D75043A53A064B277E46D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A9AD9149A82BE34BA2DBEE8D8FECCEF8 /* Products */,
+				3D6A7A44D1FA5D8B6BC5C1D944ADCEB4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6EB1F859FD10F35DD79A70361BDF013 /* Pods-LDZFGiteeFileUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E82BACAD9027FC33B5AF949AFF7CD84C /* Pods-LDZFGiteeFileUtil_Tests.modulemap */,
+				1B3BA1DDF78870773DE018AAD4636058 /* Pods-LDZFGiteeFileUtil_Tests-acknowledgements.markdown */,
+				D46EDFB6753695D74AE39157B0076D7E /* Pods-LDZFGiteeFileUtil_Tests-acknowledgements.plist */,
+				CAFF178ACDC08AB19CD1D483EFB9DEC1 /* Pods-LDZFGiteeFileUtil_Tests-dummy.m */,
+				5884727D9BAD060B5CA70DB516E23C27 /* Pods-LDZFGiteeFileUtil_Tests-Info.plist */,
+				821728F5EA2556C32B9302F5FCCA75E8 /* Pods-LDZFGiteeFileUtil_Tests-umbrella.h */,
+				1270D093DC55AC92DF20AA59DB554D8A /* Pods-LDZFGiteeFileUtil_Tests.debug.xcconfig */,
+				FB35F7C6FA3C87E082161718502FCD0A /* Pods-LDZFGiteeFileUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-LDZFGiteeFileUtil_Tests";
+			path = "Target Support Files/Pods-LDZFGiteeFileUtil_Tests";
+			sourceTree = "<group>";
+		};
+		FDA731B8A30D0E8E1D3E676CE537D881 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D174969CE74A8662F7250E33D6F48 /* LDZFGiteeFileUtil.podspec */,
+				B894F4333A373DAD7E9E22208CC04CF1 /* LICENSE */,
+				EBF9862E63F33D858BF6611A18A03474 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		329CA22FD3186C857D4B069DB9585456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A9F87C7492177934D4D2248CD71E44 /* Pods-LDZFGiteeFileUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53300E459F3EC7E9FC3FDB65DFC907E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058BEC09E196F2901F364F5DDD73BEFE /* Pods-LDZFGiteeFileUtil_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94491A07911DD3950BDB9D97F12FCFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E02004317FEB2CB86C51DDA56A2153C /* LDZFGiteeFileUtil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		121D549FC9E60E840D54B99FCF32A30C /* LDZFGiteeFileUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA149F36A9584C6E900F04F254CA95F9 /* Build configuration list for PBXNativeTarget "LDZFGiteeFileUtil" */;
+			buildPhases = (
+				F94491A07911DD3950BDB9D97F12FCFF /* Headers */,
+				6BB77865D0AC908271D21ECC819D6686 /* Sources */,
+				A3610242E8A1DC58A30E28DCDC90532E /* Frameworks */,
+				6305C2DD12C83B36AB627F85AD967205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDZFGiteeFileUtil;
+			productName = LDZFGiteeFileUtil;
+			productReference = 4EFA162D3271A7C54ED69ED1E0902D03 /* LDZFGiteeFileUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A57AD1FB1D42E488B1C366FE3248570 /* Pods-LDZFGiteeFileUtil_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DB92DCF1D1B9F0CBE2EE7EBBF483CD /* Build configuration list for PBXNativeTarget "Pods-LDZFGiteeFileUtil_Example" */;
+			buildPhases = (
+				E53300E459F3EC7E9FC3FDB65DFC907E /* Headers */,
+				BB57ECD29A88D7A89A5FF0DAFDB125D9 /* Sources */,
+				2446BA2913FC33EA7151B20AAD972560 /* Frameworks */,
+				88BC91439D37064697B77AEBEFDB270E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF69E64123DCC946929FC1AD69D32A71 /* PBXTargetDependency */,
+			);
+			name = "Pods-LDZFGiteeFileUtil_Example";
+			productName = "Pods-LDZFGiteeFileUtil_Example";
+			productReference = AFB28A9DCBEB075C6302E31577D8F59B /* Pods_LDZFGiteeFileUtil_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		812FF9A1518FBCED63EC24B7487668D8 /* Pods-LDZFGiteeFileUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9057A451A8FE12E05F1984A6E68B6B73 /* Build configuration list for PBXNativeTarget "Pods-LDZFGiteeFileUtil_Tests" */;
+			buildPhases = (
+				329CA22FD3186C857D4B069DB9585456 /* Headers */,
+				E3886F961CA93B00CF884E9B82EE4073 /* Sources */,
+				F4BDC403A75546C81ACEB9FA6F7BA1EC /* Frameworks */,
+				1CE4C1887AF25370533F07638F500D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04D75E5CDAC849F63EB7B1BA4D8806F /* PBXTargetDependency */,
+			);
+			name = "Pods-LDZFGiteeFileUtil_Tests";
+			productName = "Pods-LDZFGiteeFileUtil_Tests";
+			productReference = 7DBD2A41317A0EAF9650F6AD33C510E2 /* Pods_LDZFGiteeFileUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A9AD9149A82BE34BA2DBEE8D8FECCEF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				121D549FC9E60E840D54B99FCF32A30C /* LDZFGiteeFileUtil */,
+				5A57AD1FB1D42E488B1C366FE3248570 /* Pods-LDZFGiteeFileUtil_Example */,
+				812FF9A1518FBCED63EC24B7487668D8 /* Pods-LDZFGiteeFileUtil_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CE4C1887AF25370533F07638F500D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6305C2DD12C83B36AB627F85AD967205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BC91439D37064697B77AEBEFDB270E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB77865D0AC908271D21ECC819D6686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F976BD6E3B2E153D3EA9B2A00B3AC75 /* LDZFGiteeFileUtil-dummy.m in Sources */,
+				7B7CB19576661F4E7A200AF29837DACC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB57ECD29A88D7A89A5FF0DAFDB125D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0061694BFAAA05E3D46C2E9536D663D /* Pods-LDZFGiteeFileUtil_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3886F961CA93B00CF884E9B82EE4073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D60A975F5BB5B17DC06C467156F46C7 /* Pods-LDZFGiteeFileUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A04D75E5CDAC849F63EB7B1BA4D8806F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LDZFGiteeFileUtil_Example";
+			target = 5A57AD1FB1D42E488B1C366FE3248570 /* Pods-LDZFGiteeFileUtil_Example */;
+			targetProxy = F59502FFA6107469E79D19F48917D88E /* PBXContainerItemProxy */;
+		};
+		AF69E64123DCC946929FC1AD69D32A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDZFGiteeFileUtil;
+			target = 121D549FC9E60E840D54B99FCF32A30C /* LDZFGiteeFileUtil */;
+			targetProxy = 11A2BB3E1F9A4A9CABC02BD6C88C59BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		312AE4E1A55D24AA9A51FDC84F9C2B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59203D2828F1A4EFBC60C2A2834D432B /* LDZFGiteeFileUtil.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LDZFGiteeFileUtil/LDZFGiteeFileUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDZFGiteeFileUtil/LDZFGiteeFileUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDZFGiteeFileUtil/LDZFGiteeFileUtil.modulemap";
+				PRODUCT_MODULE_NAME = LDZFGiteeFileUtil;
+				PRODUCT_NAME = LDZFGiteeFileUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		407666A025A4FD21A38C0D4D2FB5A8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1270D093DC55AC92DF20AA59DB554D8A /* Pods-LDZFGiteeFileUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Tests/Pods-LDZFGiteeFileUtil_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Tests/Pods-LDZFGiteeFileUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F6CB2E774CE0DEAD1EEEAC7CB036ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C216C27C9252FBF279F462A6257A24F3 /* LDZFGiteeFileUtil.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LDZFGiteeFileUtil/LDZFGiteeFileUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDZFGiteeFileUtil/LDZFGiteeFileUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDZFGiteeFileUtil/LDZFGiteeFileUtil.modulemap";
+				PRODUCT_MODULE_NAME = LDZFGiteeFileUtil;
+				PRODUCT_NAME = LDZFGiteeFileUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		523C0F62DAEA53FE91C525496395DDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB35F7C6FA3C87E082161718502FCD0A /* Pods-LDZFGiteeFileUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Tests/Pods-LDZFGiteeFileUtil_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Tests/Pods-LDZFGiteeFileUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		623792D2A7047C8BB472EDA2194EA45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD026ADB018D629DBC3D3599F42D2B75 /* Pods-LDZFGiteeFileUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Example/Pods-LDZFGiteeFileUtil_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Example/Pods-LDZFGiteeFileUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4104C70F36A79F5BCC122D2D740C80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EA11ADEA778E2AAFE6E38984CAC17C /* Pods-LDZFGiteeFileUtil_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Example/Pods-LDZFGiteeFileUtil_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFGiteeFileUtil_Example/Pods-LDZFGiteeFileUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9057A451A8FE12E05F1984A6E68B6B73 /* Build configuration list for PBXNativeTarget "Pods-LDZFGiteeFileUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407666A025A4FD21A38C0D4D2FB5A8C1 /* Debug */,
+				523C0F62DAEA53FE91C525496395DDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DB92DCF1D1B9F0CBE2EE7EBBF483CD /* Build configuration list for PBXNativeTarget "Pods-LDZFGiteeFileUtil_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623792D2A7047C8BB472EDA2194EA45D /* Debug */,
+				B4104C70F36A79F5BCC122D2D740C80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA149F36A9584C6E900F04F254CA95F9 /* Build configuration list for PBXNativeTarget "LDZFGiteeFileUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6CB2E774CE0DEAD1EEEAC7CB036ABA /* Debug */,
+				312AE4E1A55D24AA9A51FDC84F9C2B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
