@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "GiteeFileUtil.h"
+#import "GiteeResponse.h"
+#import "LDZFGiteeFileUtil.h"
 
 FOUNDATION_EXPORT double LDZFGiteeFileUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char LDZFGiteeFileUtilVersionString[];

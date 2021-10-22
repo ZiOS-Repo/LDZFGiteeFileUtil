@@ -1,15 +1,36 @@
 PODS:
-  - LDZFGiteeFileUtil (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LDZFGiteeFileUtil (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - LDZFGiteeFileUtil (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   LDZFGiteeFileUtil:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDZFGiteeFileUtil: cfe195da048b948c445ce8c5dec3409566fe6108
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LDZFGiteeFileUtil: b8c486aa80cca3504693a822b6fe7f7809fa0963
 
 PODFILE CHECKSUM: 8cff853692e1285ba9b72b96a8cd77b579db6c5d
 
